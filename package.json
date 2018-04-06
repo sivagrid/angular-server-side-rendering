@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:universal": "ng build --prod && ng build --prod -app 1 --output-hashing=none",
-    "serve:universal": "npm run build-universal && node server"
+    "serve:universal": "npm run build:universal && node server"
   },
   "private": true,
   "dependencies": {
