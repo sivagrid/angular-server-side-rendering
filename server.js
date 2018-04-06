@@ -25,7 +25,7 @@ app.engine('html', ngExpressEngine({
 app.set('view engine', 'html');
 app.set('views', 'dist');
 
-// to server our static angular files.
+// to serve our static files.
 app.use(express.static(`${__dirname}/dist`));
 
 
